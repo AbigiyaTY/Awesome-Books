@@ -1,6 +1,5 @@
 import BookList from './modules/addBook.js';
 import display from './modules/display.js';
-import time from './modules/time.js';
 
 const myList = new BookList('add-button');
 myList.addButton.onclick = BookList.addBook;
@@ -14,4 +13,11 @@ document.getElementById('add-new').onclick = () => {
 document.getElementById('contact').onclick = () => {
   display('contact', 'add-new', 'list');
 };
-setInterval(time, 1000);
+
+// date and time
+
+// export default date;
+const datePlaceholder = document.getElementById('date');
+
+// eslint-disable-next-line no-undef
+datePlaceholder.innerHTML = luxon.DateTime.local().toLocaleString(luxon.DateTime.DATETIME_FULL);
