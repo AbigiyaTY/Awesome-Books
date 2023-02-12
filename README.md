@@ -1,6 +1,8 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # Awesome Book Website
 
-This project helps you keep the record of you favorate books , add new books and remove  books from your favorate books record . 
+> Awesome Book Website  helps you keep the record of you favorate books , add new books and remove  books from your favorate books record . 
 
 ## Built with
 
